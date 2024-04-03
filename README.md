@@ -7,12 +7,10 @@
 
 Create a new environment for the project.
 
-1. use ctrl + shift + p to open the command palette and select Python: Create Environment
-between venv and conda select conda and further select 3.12 for the python version
+first, download and install miniconda
+then
 
-1.1 deactivate this environment ig
-
-2. ctrl + shift + p --> select Python: Select Interpreter --> select python 3.12.1('base') for conda
+1. ctrl + shift + p --> select Python: Select Interpreter --> select python 3.12.1('base') for conda (miniconda ver.)
 run:
 
 ```
@@ -20,4 +18,4 @@ conda create -p venv python==3.7 -y
 ```
 in the command prompt 
 
-3. ctrl + shift + p --> select Python: Select Interpreter --> select python 3.7 ('venv')
+2. ctrl + shift + p --> select Python: Select Interpreter --> select python 3.7 ('venv')
